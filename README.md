@@ -1,1 +1,1 @@
-# edutech-qa-portfolio
+This project is a QA Automation project using Playwright to showcase automation and manual testing abilities for a blog like system eg edutech system. 
