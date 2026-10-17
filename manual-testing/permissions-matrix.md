@@ -1,7 +1,7 @@
 # Roles
 
 1. Superadmin
-2. Admin - For roles with higher authority than Teacher
+2. Admin - For roles with higher authority than Teacher eg: Dean, Principal
 3. Teacher
 4. Student
 5. Guest User

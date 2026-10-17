@@ -1,4 +1,4 @@
-# Authentication (AUTH)
+# Authentication 
 
 ## ETQP-AUTH-01 New account registration
 
@@ -86,7 +86,7 @@
 **Steps:**
   1. Click on 'Settings' in navigation bar.
   2. Click on 'Or click here to logout.'
-**PosETQPonditions:** Navigate to home page with permissions for a GUEST USER.
+**Postconditions:** Navigate to home page with permissions for a GUEST USER.
 **Expected Results:** The user will be redirected to the home feed.
 
 ## ETQP-AUTH-06 New account registration with duplicate email
@@ -105,6 +105,21 @@
   5. Enter a valid password.
   6. Click on 'Sign up' button.
 **Expected Results:** Account is not successfully created. Display an error message 'An account exists with this email'.
+
+## ETQP-AUTH-07 Register with insecure password
+
+**Summary:** Verify a USER can not enter an insecure password and register.
+
+**Preconditions:** 
+  1. The user is not an existing account.
+  2. Navigate to 'https://demo.realworld.show/register'
+
+**Steps:**
+  4. Enter a valid email.
+  5. Enter a insecure password.
+  6. Click on 'Sign in' button.
+**Expected Results:** User is not automatically logged in and an error message 'Credentials invalid' must be displayed.
+
 
 ---
 
@@ -413,6 +428,7 @@
 **Steps:** Click on the 'Delete Article' button at the top of the article.
 
 **Postconditions:** Navigate to '[https://demo.realworld.show/](https://demo.realworld.show/)'
+
 **Expected Results:** The article is permanently deleted, and the user is redirected back to the home feed.
 
 ## ETQP-EXP-07 Extremely long comment input
